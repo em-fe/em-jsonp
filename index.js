@@ -5,6 +5,8 @@ import O from './tools/o';
  * callback: string 回调的方法名 默认 callback
  * success: function 请求成功的回调
  * error: function 请求失败的回调
+ * data: string 附加参数
+ * time: number 超时时间
 */
 function jsonp(params) {
   //创建script标签并加入到页面中
