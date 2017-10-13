@@ -41,4 +41,23 @@ function jsonp(params) {
   }
 }
 
-export default jsonp;
+var VueJsonp = {
+  install: function(Vue) {
+    if (!Vue.prototype.$jsonp) {
+      Object.defineProperties(Vue.prototype, {
+        $jsonp: {
+          get: function() {
+            return VueJsonp;
+          },
+        },
+      });
+    }
+  },
+  jsonp: jsonp,
+};
+
+export default VueJsonp;
+
+if(typeof window!=='undefined' && !window.$jsonp){
+  window.$jsonp = VueJsonp;
+}
