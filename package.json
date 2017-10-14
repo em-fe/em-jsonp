@@ -1,6 +1,6 @@
 {
   "name": "em-jsonp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "jsonp跨域方法",
   "main": "index.js",
   "scripts": {
