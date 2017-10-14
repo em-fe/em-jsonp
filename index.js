@@ -59,5 +59,5 @@ var VueJsonp = {
 export default VueJsonp;
 
 if(typeof window!=='undefined' && !window.$jsonp){
-  window.$jsonp = VueJsonp;
+  window.$jsonp = jsonp;
 }
