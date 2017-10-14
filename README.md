@@ -1,10 +1,13 @@
 # em-jsonp
 jsonp前端跨域
 
+1. window挂载 $jsonp
+2. 支持VUE2
+
 ### 使用方法
 
 ```js
-jsonp({
+window.$jsonp({
   url: 'http://test.com',
   success: (res) => {
 
