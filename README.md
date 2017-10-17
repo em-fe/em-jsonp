@@ -1,6 +1,12 @@
 # em-jsonp
 jsonp前端跨域
 
+[![em-jsonp](https://img.shields.io/npm/v/em-jsonp.svg?style=flat-square)](https://www.npmjs.org/package/em-jsonp)
+[![NPM downloads](http://img.shields.io/npm/dm/em-jsonp.svg?style=flat-square)](https://npmjs.org/package/em-jsonp)
+[![Package Quality](http://npm.packagequality.com/shield/em-jsonp.svg)](http://packagequality.com/#?package=em-jsonp)
+[![NPM downloads](https://img.shields.io/npm/dt/em-jsonp.svg?style=flat-square)](https://npmjs.org/package/em-jsonp)
+
+
 1. window挂载 $jsonp
 2. 支持VUE2
 
