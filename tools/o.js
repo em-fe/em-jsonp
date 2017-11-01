@@ -4,7 +4,7 @@ export default {
   },
   //格式化参数
   formatParams: function(data, callbackName) {
-    const arr = [];
+    var arr = [];
     Object.keys(data).forEach(function(dataKey) {
       arr.push(encodeURIComponent(dataKey) + '=' + encodeURIComponent(data[dataKey]));
     });
